@@ -1,0 +1,123 @@
+
+This is Liliana Hotsko's Animal Learning program
+
+To read in previous data [in MyData.lisp], type (load "MyData.lisp") at the LISP prompt.
+
+To play, just type (animal), (sport) or (cars) at the LISP prompt
+
+T
+CL-USER(49): (animal)
+Is this thing a mammal? [y/n]
+y
+Is it a COW? [y/n]
+n
+Ahh -- nuts.
+
+What was it [type one word]?
+CAT
+Type a question that is true for CAT and false for COW [in quotes]:
+
+"Is it small"
+
+Would you like to play again? [y/n]
+y
+Is this thing a mammal? [y/n]
+y
+Is it small? [y/n]
+n
+Is it a COW? [y/n]
+n
+Yes I expected to lose.
+
+What was it [type one word]?
+ELEPHANT
+Type a question that is true for ELEPHANT and false for COW [in quotes]:
+
+"Is it huge"
+
+Would you like to play again? [y/n]
+y
+Is this thing a mammal? [y/n]
+y
+Is it small? [y/n]
+y
+Is it a CAT? [y/n]
+y
+For once I guess I am right.
+
+Would you like to play again? [y/n]
+y
+Is this thing a mammal? [y/n]
+y
+Is it small? [y/n]
+n
+Is it huge? [y/n]
+y
+Is it a ELEPHANT? [y/n]
+y
+If you want to know who is the boss - just look at me!
+
+Would you like to play again? [y/n]
+y
+Is this thing a mammal? [y/n]
+y
+Is it small? [y/n]
+n
+Is it huge? [y/n]
+n
+Is it a COW? [y/n]
+n
+that is the only time I lose, I am the champion! Almost)
+
+What was it [type one word]?
+HOURSE
+Type a question that is true for HOURSE and false for COW [in quotes]:
+
+"Does it run fast"
+
+Would you like to play again? [y/n]
+y
+Is this thing a mammal? [y/n]
+n
+Is it a LIZARD? [y/n]
+n
+I always do lose. It is normal for me.
+
+What was it [type one word]?
+PARROT
+Type a question that is true for PARROT and false for LIZARD [in quotes]:
+
+"Is it a bird"
+
+Would you like to play again? [y/n]
+y
+Is this thing a mammal? [y/n]
+n
+Is it a bird? [y/n]
+y
+Is it a PARROT? [y/n]
+y
+For once I guess I am right.
+
+Would you like to play again? [y/n]
+y
+Is this thing a mammal? [y/n]
+n
+Is it a bird? [y/n]
+y
+Is it a PARROT? [y/n]
+n
+that is the only time I lose, I am the champion! Almost)
+
+What was it [type one word]?
+DOVE
+Type a question that is true for DOVE and false for PARROT [in quotes]:
+
+"Does it live in towns"
+
+Would you like to play again? [y/n]
+n
+Thanks for playing. [Use (saveit "fname.lisp") if you want to save your data.]
+NIL
+CL-USER(50): (saveit "MyDataD.lisp")
+T
